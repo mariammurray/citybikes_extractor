@@ -1,6 +1,5 @@
 {
-    "class": {
-        "EasyBike": {
+
             "instances": [
                 {
                     "tag": "easybike-didymoteicho",
@@ -148,11 +147,7 @@
                         [38.0328563, 23.7896925],
                         [37.9488181, 23.6869861]
                     ]
-                }
-            ]
-        },
-        "EasyBikeNew": {
-            "instances": [
+                },
                 {
                     "tag": "thessbike",
                     "city_uid": "tbo",
@@ -165,7 +160,6 @@
                     }
                 }
             ]
-        }
-    },
-    "system": "easybike"
+        
+
 }

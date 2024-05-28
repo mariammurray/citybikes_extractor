@@ -1,7 +1,6 @@
 {
     "system": "keolis",
-    "class": {
-        "KeolisIlevia": {
+
             "instances": [
                 {
                     "tag": "vlille",
@@ -14,11 +13,8 @@
                         "source":  "https://opendata.lillemetropole.fr/explore/dataset/vlille-realtime/"
                     },
                     "dataset": "vlille-realtime"
-                }
-            ]
-        },
-        "KeolisSTAR": {
-            "instances": [
+                },
+
                 {
                     "tag": "le-velo-star",
                     "meta": {
@@ -31,11 +27,8 @@
                         "source": "https://data.explore.star.fr/explore/dataset/vls-stations-etat-tr/"
                     },
                     "dataset": "vls-stations-etat-tr"
-                }
-            ]
-        },
-        "VCub": {
-            "instances": [
+                },
+
                 {
                     "tag": "v3-bordeaux",
                     "meta": {
@@ -49,6 +42,4 @@
                     "feed_url": "https://ws.infotbm.com/ws/1.0/vcubs"
                 }
             ]
-        }
-    }
 }

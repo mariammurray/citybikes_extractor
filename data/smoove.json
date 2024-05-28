@@ -1,7 +1,6 @@
 {
     "system":"smoove",
-    "class":{
-        "Smoove":{
+
             "instances":[
                 {
                     "tag":"batumvelo",
@@ -13,11 +12,7 @@
                         "country":"GE"
                     },
                     "feed_url":"http://cli-velo-batumi.gir.fr/sag_map.html"
-                }
-            ]
-        },
-        "CityBikeLima": {
-            "instances": [
+                },
                 {
                     "tag": "citybike-lima",
                     "meta": {
@@ -36,6 +31,4 @@
                     "feed_url": "https://www.citybikelima.com/api/getStations"
                 }
             ]
-        }
-    }
 }
