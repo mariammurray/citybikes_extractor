@@ -1,0 +1,81 @@
+{
+    "system": "fifteen",
+    "class": "FifteenAPI",
+    "instances": [
+        {
+            "tag": "le-velo",
+            "meta": {
+                "city": "Marseille",
+                "name": "LeVélo",
+                "country": "FR",
+                "company": [
+                    "LeVélo AMP Métropole",
+                    "Ville de Marseille",
+                    "Fifteen SAS"
+                ],
+                "longitude": 5.36978,
+                "latitude": 43.296482
+            },
+            "feed_url": "https://levelo.ampmetropole.fr/api/client/stations"
+        },
+        {
+            "tag": "vilvolt",
+            "meta": {
+                "city": "Epinal",
+                "name": "Vilvolt",
+                "country": "FR",
+                "company": [
+                    "Vilvolt CA Épinal",
+                    "Communauté d'agglomération Épinal",
+                    "Fifteen SAS"
+                ],
+                "longitude": 6.4508,
+                "latitude": 48.1833
+            },
+            "feed_url": "https://vilvolt.cw.fifteen.eu/api/client/stations"
+        },
+        {
+            "tag": "gijon",
+            "meta": {
+                "city": "Gijón",
+                "name": "Gijón Bici",
+                "country": "ES",
+                "company": [
+                    "Citybike España S.L.U.",
+                    "Fifteen SAS"
+                ],
+                "longitude": -5.6663604,
+                "latitude": 43.5396116
+            },
+            "feed_url": "https://bici.gijon.es/api/client/stations"
+        },
+        {
+            "tag": "auxrmlevelo",
+            "meta": {
+                "city": "Auxerre",
+                "name": "AuxR_M le vélo",
+                "country": "FR",
+                "company": [
+                    "Fifteen SAS"
+                ],
+                "longitude": 3.572376,
+                "latitude": 47.797221
+            },
+            "feed_url": "https://auxrmlevelo.com/api/client/stations"
+        },
+        {
+            "tag": "velomodalis",
+            "meta": {
+                "city": "Ligne TER Royan - Angoulême",
+                "name": "Vélo Modalis",
+                "country": "FR",
+                "company": [
+                    "Fifteen SAS"
+                ],
+                "longitude": -0.33,
+                "latitude": 45.7
+            },
+            "feed_url": "https://www.velomodalis.fr/api/client/stations"
+        }
+    ]
+}
