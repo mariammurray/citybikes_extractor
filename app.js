@@ -1,4 +1,10 @@
 const fs = require('fs');
+const pg = require('pg');
+const conString = "postgres://maria:postgres374@localhost:5432/city_bikes_db";
+const client = new pg.Client(conString);
+client.connect();
+
+
 
 function readFiles(dirname, onFileContent, onError) {
   fs.readdir(dirname, function(err, filenames) {
@@ -20,8 +26,12 @@ function readFiles(dirname, onFileContent, onError) {
 
 readFiles('data/', (filename, content) => {
     // Read the content
-    const json = JSON.parse(content)
-    console.log(filename, json.instances[0]);
+    const json = JSON.parse(content);
+    for (let i in json.instances){
+        console.log(json.instances[i].meta.city)
+    }
+
+    
     return;
 }, (e) => {
     // on Error

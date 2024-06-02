@@ -1,7 +1,7 @@
 {
     "system": "veloway",
-    "class": {
-        "Veloway": {
+
+
             "instances": [
                 {
                     "tag": "velobleu",
@@ -26,6 +26,6 @@
                     "feed_url": "https://velo-vision-prod.azurewebsites.net/calais/oybike/stands.nsf/getsite?site=calais&format=json&key=veolia"
                 }
             ]
-        }
-    }
+
+    
 }

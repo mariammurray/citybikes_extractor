@@ -1,8 +1,7 @@
 {
     "system": "ecovelo",
-    "class": {
-        "Ecovelo": {
-            "instances": [
+
+    "instances": [
                 {
                     "tag": "rubis-velo",
                     "meta": {
@@ -277,7 +276,6 @@
                     },
                     "dataset": "choletbus"
                 }
-            ]
-        }
-    }
+    ]
+
 }
